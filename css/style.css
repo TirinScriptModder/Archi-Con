@@ -1,0 +1,85 @@
+@font-face{
+ font-family:"Minecraft";
+ src:url("../ttf/Minecraft.ttf");
+}
+@font-face{
+ font-family:"MS Gothic";
+ src:url("../ttf/MS Gothic.ttf");
+}
+*{
+ font-family:"MS Gothic";
+ margin:0px;
+ padding:0px;
+ text-decoration:none;
+}
+body{
+ background-image:url("../png/body.png");
+ height:1536px;
+ width:1024px;
+}
+header{
+ background-image:url("../png/header.png");
+ display:table-cell;
+ color:white;
+ font-family:"Minecraft";
+ font-size:128px;
+ font-weight:bolder;
+ height:256px;
+ text-align:center;
+ vertical-align:middle;
+ width:1024px;
+}
+main{
+ display:flex;
+ height:1024px;
+ width:1024px;
+}
+footer{
+ height:256px;
+ width:1024px;
+}
+nav#menu{
+ height:1024px;
+ width:256px;
+}
+li#anchor{
+ font-size:32px;
+}
+article#content{
+ height:1024px;
+ overflow:scroll;
+ width:768px;
+}
+section#overview,section#schedule,section#application,section#rule,section#list,section#contact{
+ -moz-border-image:url("../png/tab.png") 256 round;
+ -ms-border-image:url("../png/tab.png") 256 round;
+ -o-border-image:url("../png/tab.png") 256 round;
+ -webkit-border-image:url("../png/tab.png") 256 round;
+ border-style:solid;
+ border-width:64px;
+ display:flex;
+}
+p#title{
+ color:white;
+ font-family:"Minecraft";
+ font-size:128px;
+}
+img#icon{
+ height:128px;
+ width:128px;
+}
+div#text{
+}
+p#subject{
+ color:yellow;
+ font-size:64px;
+}
+div#sentence{
+}
+div#paragraph{
+ margin-top:32px;
+}
+p#predicate{
+ color:white;
+ font-size:32px;
+}
