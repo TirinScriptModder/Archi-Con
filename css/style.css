@@ -8,6 +8,7 @@
 }
 *{
  font-family:"MS Gothic";
+ font-size:32px;
  margin:0px;
  padding:0px;
  text-decoration:none;
@@ -38,48 +39,41 @@ footer{
  height:256px;
  width:1024px;
 }
-nav#menu{
+nav{
  height:1024px;
  width:256px;
 }
-li#anchor{
- font-size:32px;
-}
-article#content{
+article{
  height:1024px;
  overflow:scroll;
  width:768px;
 }
-section#overview,section#schedule,section#application,section#rule,section#list,section#contact{
+section{
  -moz-border-image:url("../png/section.png") 256 round;
  -ms-border-image:url("../png/section.png") 256 round;
  -o-border-image:url("../png/section.png") 256 round;
  -webkit-border-image:url("../png/section.png") 256 round;
+ border-image:url("../png/section.png") 256 fill round;
  border-style:solid;
  border-width:64px;
  display:flex;
 }
-p#title{
+.title{
  color:white;
  font-family:"Minecraft";
  font-size:128px;
 }
-img#icon{
+.icon{
  height:128px;
  width:128px;
 }
-div#text{
+.paragraph{
+ margin-top:1em;
 }
-p#subject{
+.predicate{
+ color:white;
+}
+.subject{
  color:yellow;
  font-size:64px;
-}
-div#sentence{
-}
-div#paragraph{
- margin-top:32px;
-}
-p#predicate{
- color:white;
- font-size:32px;
 }
