@@ -15,38 +15,24 @@
 }
 body{
  background-image:url("../png/body.png");
- height:1536px;
  width:1024px;
 }
 header{
  background-image:url("../png/header.png");
  display:table-cell;
- color:white;
- font-family:"Minecraft";
- font-size:128px;
- font-weight:bolder;
  height:256px;
  text-align:center;
  vertical-align:middle;
  width:1024px;
 }
 main{
- display:flex;
- height:1024px;
  width:1024px;
 }
 footer{
- height:256px;
  width:1024px;
 }
-nav{
- height:1024px;
- width:256px;
-}
 article{
- height:1024px;
- overflow:scroll;
- width:768px;
+ width:1024px;
 }
 section{
  -moz-border-image:url("../png/section.png") 256 round;
@@ -65,14 +51,14 @@ img{
  color:white;
  font-family:"Minecraft";
  font-size:128px;
+ font-weight:bolder;
 }
 .icon{
  height:128px;
  width:128px;
 }
 .banner{
- height:288px;
- width:512px;
+ width:768px;
 }
 .paragraph{
  margin-top:1em;
