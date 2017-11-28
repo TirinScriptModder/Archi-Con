@@ -67,6 +67,10 @@ section{
  height:128px;
  width:128px;
 }
+.community{
+ height:288px;
+ width:512px;
+}
 .paragraph{
  margin-top:1em;
 }
