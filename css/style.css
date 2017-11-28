@@ -58,6 +58,9 @@ section{
  border-width:64px;
  display:flex;
 }
+img{
+ vertical-align:bottom;
+}
 .title{
  color:white;
  font-family:"Minecraft";
